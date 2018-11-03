@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="#">
+      <img class="navbar-brand" src="imgs/LOGO.png">
+    </a>
+    <a href="#" class="logo"> Strategic
+      <span> Consulting</span>
+    </a>
+    <ul class="main-nav">
+      <li>
+        <a href="/" class="options" id="active">HOME</a>
+      </li>
+      <li>
+        <a href="/team" class="options">TEAM</a>
+      </li>
+      <li>
+        <a href="/service" class="options">SERVICES</a>
+      </li>
+      <li>
+        <a href="/contact" class="options">CONTACTS</a>
+      </li>
+    </ul>
+    <button onclick="openNav()" class="dropbtn burger-button">|||</button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="/" class="side-home">HOME</a>
+      <a href="/team">TEAM</a>
+      <a href="/service">SERVICES</a>
+      <a href="/contact">CONTATCS</a>
+    </div>
+  </nav>
+
+  <!--Section 1-->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="imgs/b.jpeg" class="crousel-img">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="imgs/3.jpeg" class="crousel-img">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="imgs/bb.jpg" class="crousel-img">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="imgs/4.jpeg" class="crousel-img">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="imgs/2.jpeg" class="crousel-img">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  </div>
+ 
+   <!--Section 2-->
+  <div class="section2">
+    <div class="content" id="team-content">
+      <p class="flag">Our Team</p>
+      I'm a Paragraph. Click here to add your own text
+      <br>and edit me. It’s easy. Just click “Edit Text” or
+      <br> double click me and you can start adding your
+      <br> own content and make changes to the font.
+      <br>
+      <br> ​I’m a great place for you to let your users know a
+      <br> little more about you. If you want to delete me
+      <br> just click on me and press delete
+      <br>
+      <br>
+      <br>
+      <br>
+      <button class="radient-button">More</button>
+    </div>
+
+    <div class="content">
+      <p class="flag">Services</p>
+      I'm a Paragraph. Click here to add your own text
+      <br>and edit me. It’s easy. Just click “Edit Text” or
+      <br> double click me and you can start adding your
+      <br> own content and make changes to the font.
+      <br>
+      <br> ​I’m a great place for you to let your users know a
+      <br> little more about you. If you want to delete me
+      <br>just click on me and press delete
+      <br>
+      <br>
+      <br>
+      <br>
+      <button class="radient-button">More</button>
+    </div>
+
+    <div id="contact">
+      <h2> Connect With Us</h2>
+      WE ARE HERE TO HELP YOU DRIVE CHANGE
+      <br> TOGETHER WE WILL SHAPE THE FUTURE
+      <br>
+      <br>
+      <br> TEL:
+      <br>
+      <span class="extra">123 456 7890</span>
+      <br>
+      <br>
+      <br> MAIL:
+      <br>
+      <span class="extra"> info@mysite.com </span>
+      <br>
+      <br> FOLLOW US:
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!--Section 3-->
+  <div class="section3">
+    <div class="division1">
+      <p class="flag">News &amp; Publications</p>
+
+      <div class="publication">
+        <div>
+          <img class="news-img" src="imgs/www.webp">
+        </div>
+        <div>
+          <span class="date"> 10-25-2023 </span>
+          <p class="news">
+            <br> I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click
+            me and you can start adding your own content and make changes to the font. I’m a great place for you to let your
+            users know a little more about you. If you want to delete me just click on me and press delete.
+          </p>
+          <a href="" class="link"> READ MORE...</a>
+        </div>
+      </div>
+
+      <div class="publication">
+        <div>
+          <img class="news-img" src="imgs/wwww.wix_mp">
+        </div>
+
+        <div>
+          <span class="date">10-25-2023</span>
+          <p class="news">
+            <br> I'm a Paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click
+            me and you can start adding your own content and make changes to the font. I’m a great place for you to let your
+            users know a little more about you. If you want to delete me just click on me and press delete.
+          </p>
+          <a href="" class="link"> READ MORE...</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="division2">
+      <p class="flag">Our Expertise</p>
+      <br>
+      <a class="a-color"> Strategy and Organization</a>
+      <br>
+      <br>
+      <a class="a-color">Globalization</a>
+      <br>
+      <br>
+      <a class="a-color">Operations Management</a>
+      <br>
+      <br>
+      <a class="a-color">Corporate Finance</a>
+      <br>
+      <br>
+      <a class="a-color">IT Management</a>
+      <br>
+      <br>
+
+      <div id="mailing">
+        <h4> Join our mailing list</h4>
+        <br>
+        <input class="mail" type="text" placeholder="Email Address">
+        <br>
+        <br>
+        <input class="S-btn" type="submit" value="Subscribe Now">
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <!--section3 end-->
+
+
+  <div class="footer">
+    &copy; 2018 by AimanAli. Proudly created with love .
+  </div>
+
+
+  <!--ChatBox-->
+   <button class="open-button" onclick="openForm()">Chat With Us !
+    <span class="up-head">&#8963;</span>
+  </button>
+  <div class="chat-popup" id="myForm">
+    <form action="" class="form-container">
+      <div class="chat-text">Chat with us!
+        <p>Hi there! Im availabe to answer your questions.</p>
+      </div>
+      <div class="message-area" id="messages"></div>
+      <div class="textarea">
+        <textarea id="m" autocomplete="off" placeholder="Type message.." name="msg"></textarea>
+        <button type="submit" class="btn">➤</button>
+      </div>
+      <button type="button" class="cancel" onclick="closeForm()"> &#8964;</button>
+    </form>
+  </div>
+
+  <!--Socket-->
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    $(function () {
+      var socket = io();
+      $('form').submit(function () {
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
+      });
+      socket.on('chat message', function (msg) {
+        $('#messages').append($('<li>').text(msg));
+      });
+    });
+  </script>
+  <script src="/main.js"></script>
+</body>
+
+</html>
